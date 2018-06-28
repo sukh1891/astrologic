@@ -1,0 +1,79 @@
+html {
+    max-width: 100%;
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: agency;
+    z-index: 0;
+    color: #666;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: agency;
+    src: url('agency.ttf');
+}
+
+* a:focus {
+    outline: none;
+}
+
+body {
+    width: 100%;
+}
+
+.sunsigns {
+    overflow: auto;
+}
+
+.sunsign {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sunsign img {
+    height: 90px;
+    width: auto;
+}
+
+.sunsign b {
+    font-size: 22px;
+    color: #f44;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    display: none;
+}
+
+.popup a {
+    padding: 10px;
+    display: inline-block;
+    color: #f44;
+}
+
+.popup #horoscope {
+    text-align: center;
+}
+
+.popup .date {
+    padding: 5px 15px;
+    font-weight: bold;
+    color: #135;
+    font-size: 25px;
+}
+
+.popup .description {
+    padding: 5px 15px;
+    text-align: justify;
+}

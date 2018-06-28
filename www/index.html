@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Astro Logic</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body onload="onLoad();">
+        <div class="sunsigns">
+            <div class="sunsign" onclick="horoscope('aries')">
+                <img src="img/aries.png"/>
+                <br/>
+                <b>Aries</b>
+                <br/>
+                Mar 21 - Apr 19
+            </div>
+            <div class="sunsign" onclick="horoscope('taurus')">
+                <img src="img/taurus.png"/>
+                <br/>
+                <b>Taurus</b>
+                <br/>
+                Apr 20 - May 20
+            </div>
+            <div class="sunsign" onclick="horoscope('gemini')">
+                <img src="img/gemini.png"/>
+                <br/>
+                <b>Gemini</b>
+                <br/>
+                May 21 - Jun 20
+            </div>
+            <div class="sunsign" onclick="horoscope('cancer')">
+                <img src="img/cancer.png"/>
+                <br/>
+                <b>Cancer</b>
+                <br/>
+                Jun 21 - Jul 22
+            </div>
+            <div class="sunsign" onclick="horoscope('leo')">
+                <img src="img/leo.png"/>
+                <br/>
+                <b>Leo</b>
+                <br/>
+                Jul 23 - Aug 22
+            </div>
+            <div class="sunsign" onclick="horoscope('virgo')">
+                <img src="img/virgo.png"/>
+                <br/>
+                <b>Virgo</b>
+                <br/>
+                Aug 23 - Sep 22
+            </div>
+            <div class="sunsign" onclick="horoscope('libra')">
+                <img src="img/libra.png"/>
+                <br/>
+                <b>Libra</b>
+                <br/>
+                Sep 23 - Oct 22
+            </div>
+            <div class="sunsign" onclick="horoscope('scorpio')">
+                <img src="img/scorpio.png"/>
+                <br/>
+                <b>Scorpio</b>
+                <br/>
+                Oct 23-Nov 21
+            </div>
+            <div class="sunsign" onclick="horoscope('sagittarius')">
+                <img src="img/sagittarius.png"/>
+                <br/>
+                <b>Sagittarius</b>
+                <br/>
+                Nov 22 - Dec 21
+            </div>
+            <div class="sunsign" onclick="horoscope('capricorn')">
+                <img src="img/capricorn.png"/>
+                <br/>
+                <b>Capricorn</b>
+                <br/>
+                Dec 22 - Jan 19
+            </div>
+            <div class="sunsign" onclick="horoscope('aquarius')">
+                <img src="img/aquarius.png"/>
+                <br/>
+                <b>Aquarius</b>
+                <br/>
+                Jan 20 - Feb 18
+            </div>
+            <div class="sunsign" onclick="horoscope('pisces')">
+                <img src="img/pisces.png"/>
+                <br/>
+                <b>Pisces</b>
+                <br/>
+                Feb 19 - Mar 20
+            </div>
+        </div>
+        <div class="popup">
+            <a onclick="back()">< Back</a>
+            <div id="horoscope"></div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
