@@ -35,5 +35,6 @@
     <allow-intent href="whatsapp://*/*"/>
     <platform name="android">
         <allow-intent href="market:*"/>
+        <splash src="www/img/app-splash.png"/>
     </platform>
 </widget>
