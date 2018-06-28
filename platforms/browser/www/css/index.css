@@ -27,13 +27,14 @@ body {
 
 .sunsigns {
     overflow: auto;
+    margin-bottom: 20px;
 }
 
 .sunsign {
     width: 33.33%;
     float: left;
     text-align: center;
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
 .sunsign img {

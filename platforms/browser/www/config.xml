@@ -11,6 +11,7 @@
         Khurana Technologies
     </author>
     <content src="index.html" />
+    <splash src="www/img/app-splash.png" />
     <icon src="www/img/icon.png" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -29,6 +30,5 @@
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
-    <preference name="SplashScreen" value="www/img/app-splash.png" />
     <preference name="AutoHideSplashScreen" value="true" />
 </widget>
